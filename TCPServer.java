@@ -9,7 +9,7 @@ public class TCPServer {
     public static void main(String[] args) {
         try {
             ServerSocket serverSocket = new ServerSocket(6799);
-            System.out.println("fServer is running...");
+            System.out.println("Server is running...");
 
             while (true) {
                 Socket clientSocket = serverSocket.accept();
